@@ -1,0 +1,56 @@
+# Environment and secrets
+.env
+*.env
+.env.local
+.env.production
+
+# Virtual environment
+ai_content_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Content output (optional - you might want to share examples)
+content_output/*.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
